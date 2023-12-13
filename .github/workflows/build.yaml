@@ -13,7 +13,7 @@ jobs:
               run: "sudo docker rm -f cyclobold123 || true"
 
             - name: "Get the code from Docker Hub"
-              run: "sudo docker pull monyslim/cyclobold123:newest"
+              run: "sudo docker pull syjjem093/cyclobold123:newest"
 
             - name: "Run the image as a container"
-              run: "sudo docker run -d -p 80:80 --name cyclobold123 monyslim/cyclobold123:newest"
+              run: "sudo docker run -d -p 80:80 --name cyclobold123 syjjem093/cyclobold123:newest"
