@@ -67,4 +67,3 @@ jobs:
         run: |
             docker build -t $USERNAME/$IMAGE_NAME:$VERSION .
             docker push $USERNAME/$IMAGE_NAME:$VERSION
-      
